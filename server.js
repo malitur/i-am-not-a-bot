@@ -5,9 +5,10 @@ let Client = new Discord.Client();
 
 Client.on("message", message => {
 
-if (message.content === "ping") {
+if (message.content === "commands") {
 
-message.channel.send("pong")
+message.channel.send("hihi")
+  message.channel.send("test")
 
 }
 
